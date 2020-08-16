@@ -17,6 +17,8 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from '@angular/material/input';
 import { BoardComponent } from './board/board.component';
+import {MatTableModule} from "@angular/material/table";
+import {MatPaginatorModule} from "@angular/material/paginator"
 
 
 @NgModule({
@@ -27,6 +29,8 @@ import { BoardComponent } from './board/board.component';
     BoardComponent
   ],
   imports: [
+    MatPaginatorModule,
+    MatTableModule,
     MatFormFieldModule,
     MatInputModule,
     MatDividerModule,
