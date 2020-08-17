@@ -1,9 +1,49 @@
 <app-header></app-header>
 <div class="content">
     <div class="selection">
-        
+        <mat-card class="mat-elevation-z8">
+          <button class="selection-item" mat-stroked-button color="primary">
+            <span class="material-icons">
+              vertical_align_bottom
+            </span>
+            Nouvelles entrée
+          </button><br><br>
+          <button class="selection-item" mat-stroked-button color="primary">
+            <span class="material-icons">
+              vertical_align_top
+            </span>
+            Nouvelle sortie
+          </button><br><br>
+          <button class="selection-item" mat-stroked-button color="primary">
+            <span class="material-icons">
+              widgets
+            </span>
+            Nouvelle catégories
+          </button><br><br>
+          <button class="selection-item" mat-stroked-button color="primary">
+            <span class="material-icons" color="warn">
+              contact_page
+            </span>
+            Nouveaux fournisseurs
+          </button> <br><br>
+          <button class="selection-item" mat-stroked-button color="primary">
+            <span class="material-icons">
+              notification_important
+              </span>
+            Alert
+          </button><br><br>
+          <button class="selection-item" mat-stroked-button color="primary">
+            <span class="material-icons">
+              system_update_alt
+            </span>
+            Export(Excel)
+          </button>
+        </mat-card>
     </div>
     <div class="mat-elevation-z8">
+        <div>
+
+        </div>
         <table mat-table [dataSource]="dataSource">
 
             <!-- Position Column -->

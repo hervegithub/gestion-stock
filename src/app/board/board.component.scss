@@ -3,5 +3,20 @@ table {
 }
 
 .content{
-    padding: 20px;
+  padding: 20px;
+  display: flex;
+}
+
+.selection{
+  flex-grow: 1;
+  margin-right: 30px;
+}
+
+.selection-item{
+  width: 100%;
+  text-align: left;
+}
+
+.mat-elevation-z8{
+  flex-grow: 8;
 }
