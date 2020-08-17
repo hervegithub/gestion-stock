@@ -15,8 +15,15 @@ table {
 .selection-item{
   width: 100%;
   text-align: left;
+  height: 50px;
 }
 
 .mat-elevation-z8{
   flex-grow: 8;
+}
+
+mat-form-field{
+  width: 120px;
+  margin-right: 10px;
+  
 }
