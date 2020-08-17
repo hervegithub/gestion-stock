@@ -19,6 +19,8 @@ import {MatInputModule} from '@angular/material/input';
 import { BoardComponent } from './board/board.component';
 import {MatTableModule} from "@angular/material/table";
 import {MatPaginatorModule} from "@angular/material/paginator";
+import { NewProductComponent } from './new-product/new-product.component';
+
 
 
 
@@ -27,7 +29,8 @@ import {MatPaginatorModule} from "@angular/material/paginator";
     AppComponent,
     LoginComponent,
     HeaderComponent,
-    BoardComponent
+    BoardComponent,
+    NewProductComponent
   ],
   imports: [
     MatPaginatorModule,
