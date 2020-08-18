@@ -29,6 +29,15 @@ This part of the software is completely open-source and if you want to contribut
 
 # Quelques interfaces déjà faites
 
-<img src="./src/assets/interfaces/board.PNG">
+<h2>Interface principale</h2>
+<img src="./src/assets/interfaces/board.PNG">*
+
+<h2>Interface de connexion</h2>
+<img src="./src/assets/interfaces/login.PNG">
+
+<h2>Ajout de produit</h2>
+<img src="./src/assets/interfaces/new-product.PNG">
+
+
 
 
