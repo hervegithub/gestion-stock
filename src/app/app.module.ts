@@ -20,6 +20,7 @@ import { BoardComponent } from './board/board.component';
 import {MatTableModule} from "@angular/material/table";
 import {MatPaginatorModule} from "@angular/material/paginator";
 import { NewProductComponent } from './new-product/new-product.component';
+import { RegisterComponent } from './register/register.component';
 
 
 
@@ -30,7 +31,8 @@ import { NewProductComponent } from './new-product/new-product.component';
     LoginComponent,
     HeaderComponent,
     BoardComponent,
-    NewProductComponent
+    NewProductComponent,
+    RegisterComponent
   ],
   imports: [
     MatPaginatorModule,
