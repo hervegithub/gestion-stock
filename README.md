@@ -24,11 +24,11 @@ This part of the software is completely open-source and if you want to contribut
 
 # Technologies
 
-Front-end : #Angular, #Angular-material, #Bootstrap
-Backend : #Nodejs, #Nestjs, #MongoDB
+- Front-end : `Angular`, `Angular-material`, `Bootstrap` 
+- Backend : `Nodejs`, `Nestjs`, `MongoDB`
 
 # Quelques interfaces déjà faites
 
-[Connexion] (../../assets/interfaces/board.PNG)
+<img src="./src/assets/interfaces/board.PNG">
 
 
