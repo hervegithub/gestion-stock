@@ -57,4 +57,6 @@ export class BoardComponent implements OnInit {
     this.router.navigate(['new-product']);
   }
 
+  
+
 }
